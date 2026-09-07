@@ -1,12 +1,22 @@
-# Hello World in C
+# Simple Line Editor in C
 
-**Student Name:** Pratham  
-**Course:** Portfolio Building for Engineering Students (B25GE0101)  
+**Team Members:**
+1. Pratham V. G. Gowda
+2. Naman Vijaykumar
+3. Nandeesh S
 
-## Description
-This repository contains a simple C program created and pushed for Activity 2.
+**Course:** Portfolio Building - Studio Course (3rd Semester)
 
-## How to Compile and Run
+## Features
+
+- Dynamic array data structure for line-by-line text manipulation
+- Interactive command-line interface
+- Operations: `INSERT`, `DELETE`, `DISPLAY`, `SAVE`, `LOAD`, `STATS`, `HELP`, `EXIT`
+- In-memory document storage with automatic reallocation
+
+## Build & Run Instructions
+
+To compile the C source file:
+
 ```bash
-gcc hello.c -o hello
-./hello
+gcc -Wall -Wextra editor.c -o editor
